@@ -212,9 +212,14 @@
             <div class="col">
               <div id="notifikasiemail" class="col">
             <div id="teksinput" class="text-center"><b>Tuliskan Email Kalian Agar Mendapatkan Notifikasi dari Website Ini</b></div>
-            <input id="inputan" type="text">
-            <button >Submit</button>
-            <div class="col">
+            <form 
+  method="POST" 
+  action="https://hanifportfolio.netlify.app/"
+>
+  <input name="Email" type="email" placeholder="Email" required>
+  <input name="Name" type="text" placeholder="Name" required>
+  <button type="submit">Send</button>
+</form>
                 </div>
               </div>
             </div>
